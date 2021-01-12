@@ -3,6 +3,81 @@ body{
   display: flex;
   justify-content: center;
 }
+.hidden{
+  display: none;
+}
 .App{
+  padding: 12%;
+  margin-top: 15%;
+  background-color: rgb(255,255,255, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 30%;
+  border-radius: 15px;
+}
+.userCard{
+  width: 95%;
+  margin: 2%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: #78a1bb;
+  border-radius: 15px;
+  border: 10px solid #4a7082;
+}
+.infoWrapper{
+  padding: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.info{
+  width: 45%;
+}
+.buttons{
+  display: flex;
+  align-items: bottom;
+  justify-items: space-around;
+  width: 100%;
+}
+.buttons button{
+  background-color: #4a7082;
+  border: none;
+  margin-left: 2%;
+  padding: 3%;
+  border-radius: 15px 15px 0 0;
+  color: white;
+}
+
+.buttons button:hover{
+  cursor: pointer;
+  color: gray;
+  background-color: #BED1DA;
+}
+.followers{
   width: 85%;
+  border-radius: 0 0 15px 15px;
+  padding: 4%;
+  background-color: #4a7082;
+}
+.followers img{
+  width: 10%;
+}
+.followerCard{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1%;
+  background-color: #BED1DA;
+  margin: 2%;
+  border-radius: 15px;
+}
+.followers p{
+  padding-left: 10%;
 }
